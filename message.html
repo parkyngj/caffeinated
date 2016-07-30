@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Caffeinated - Homepage</title>
+  <link rel="stylesheet" type="text/css" href="cf-style.css">
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <header>
+    <div id="header-container">
+      <div id="logo-container">
+        <img src="images/icon.png" alt="Caffeinated Logo" id="logo">
+      </div>
+      <div id="main-header">
+        Caffeinated
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <ul id="navi">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li>Message Us</li>
+    </ul>
+  </nav>
+
+  <main>
+    <div id="sidebar">
+      <div class="heading">Location</div>
+      <p>
+        2222 Coffee Bean Dr.<br>
+        Berkeley, CA 94720
+      </p>
+
+      <div class="heading">Hours of Operation</div>
+      <p>
+        8:00AM - 11:00PM daily
+      </p>
+
+      <div class="heading">Contact Us</div>
+      <p>
+        Phone: (510)-5105-1051<br>
+        Email: contact@caffeinat.ed
+      </p>
+    </div>
+
+    <div id="content">
+
+      <div class="heading">Talk To Us</div>
+      <p>Have something to say? Then please take the time to fill our the form below!</p>
+
+      <form name="contact" action="success.html" method="get">
+        <fieldset name="user-info">
+          <legend>About You</legend>
+          <div>
+            <label>Name:</label>
+            <input type="text" name="name">
+          </div>
+          <div>
+            <label>Email:</label>
+            <input type="email" name="email">
+          </div>
+        </fieldset>
+
+        <fieldset name="user-msg">
+          <legend>What's Up?</legend>
+          <div>
+            <label>This message concerns:</label>
+            <select name="msg-context">
+              <option value="catering">Catering</option>
+              <option value="events-mmon">Events - Music Mondays</option>
+              <option value="events-bgthurs">Events - Board Game Thursdays</option>
+              <option value="events-ifsat">Events - Indie Film Saturday</option>
+              <option value="events-suggestion">Events - Suggestion</option>
+              <option value="food-beer">Food - Beer</option>
+              <option value="food-coffee">Food - Coffee</option>
+              <option value="food-coffee">Food - Sandwiches</option>
+              <option value="food-suggestion">Food - Suggestion</option>
+              <option value="services">Our Services</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div>
+            <label>Your Message:</label>
+            <textarea name="user-msg" rows="5" cols="40" placeholder="Type your message here!"></textarea>
+          </div>
+        </fieldset>
+
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+
+      <p>Alternatively, feel free to call us at (510)-5105-1051!</p>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>
+      (c) 2016 Caffeinated. All rights reserved.
+    </p>
+  </footer>
+
+</body>
+</html>
