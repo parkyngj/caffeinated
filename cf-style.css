@@ -145,3 +145,36 @@ footer{
   font-size: 12px;
   margin-top: 50px;
 }
+
+@media screen and (max-width: 600px){
+  #navi{
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  #navi li{
+  display:block;
+  width: 100%;
+  margin-left: 0px;
+  padding-left: 0px;
+  line-height: 1.75em;
+}
+  main{
+  display:flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: flex-start;
+}
+  #sidebar{
+    width: 100%;
+    padding: 5px;
+    border-radius: 0px;
+    margin-right:0px;
+    margin-top: 10px;
+  }
+  #content{
+    width: 100%;
+    padding: 5px;
+    border-radius: 0px;
+  }
+
+}
