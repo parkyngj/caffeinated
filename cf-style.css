@@ -6,6 +6,11 @@ body{
   background-color: #8A675A;
 }
 
+a{
+  color: #4F4242;
+  text-decoration: none;
+}
+
 header{
   background-image: url(images/front.jpg);
   background-position: center top;
