@@ -140,6 +140,18 @@ main{
   padding-left: 10px;
 }
 
+#menu-container{
+  width: 100%;
+    display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#menu-column-1{
+  margin-right: 15px;
+}
+
 form{
   background-color: #fdf2ea;
   max-width: 350px;
